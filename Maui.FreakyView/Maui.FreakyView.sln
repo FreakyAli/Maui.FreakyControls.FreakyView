@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1703.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.FreakyView", "Maui.FreakyView\Maui.FreakyView.csproj", "{F2B1F0DA-FA21-4E31-A87A-0426FEF13C7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{4C41EB8B-301E-45C6-860F-8F2561AA2557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F2B1F0DA-FA21-4E31-A87A-0426FEF13C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2B1F0DA-FA21-4E31-A87A-0426FEF13C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2B1F0DA-FA21-4E31-A87A-0426FEF13C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C41EB8B-301E-45C6-860F-8F2561AA2557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C41EB8B-301E-45C6-860F-8F2561AA2557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C41EB8B-301E-45C6-860F-8F2561AA2557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C41EB8B-301E-45C6-860F-8F2561AA2557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
