@@ -3,7 +3,6 @@ using Microsoft.Maui.Handlers;
 
 namespace Maui.FreakyControls;
 
-public class FreakyViewHandler : ContentViewHandler
+public partial class FreakyViewHandler : ContentViewHandler
 {
 }
-

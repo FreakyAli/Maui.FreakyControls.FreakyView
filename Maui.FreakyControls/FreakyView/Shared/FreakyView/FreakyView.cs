@@ -1,8 +1,7 @@
 ﻿using System;
 namespace Maui.FreakyControls;
 
-public class FreakyView
+public class FreakyView : ContentView
 {
-	
-}
 
+}

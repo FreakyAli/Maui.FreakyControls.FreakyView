@@ -28,6 +28,7 @@
 	  <None Remove="Platforms\Android\" />
 	  <None Remove="Shared\" />
 	  <None Remove="Shared\FreakyView\" />
+	  <None Remove="Shared\Extensions\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Platforms\Windows\" />
@@ -36,5 +37,6 @@
 	  <Folder Include="Platforms\Android\" />
 	  <Folder Include="Shared\" />
 	  <Folder Include="Shared\FreakyView\" />
+	  <Folder Include="Shared\Extensions\" />
 	</ItemGroup>
 </Project>
