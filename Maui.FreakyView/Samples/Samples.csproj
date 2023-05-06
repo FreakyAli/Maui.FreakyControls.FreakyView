@@ -56,6 +56,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Maui.FreakyView\Maui.FreakyView.csproj" />
+	  <ProjectReference Include="..\Maui.FreakyView\Maui.FreakyView.csproj">
+	    <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+	  </ProjectReference>
 	</ItemGroup>
 </Project>

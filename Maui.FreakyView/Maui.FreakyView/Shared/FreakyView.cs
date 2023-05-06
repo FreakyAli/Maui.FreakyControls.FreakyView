@@ -2,7 +2,7 @@
 using System.Collections.Specialized;
 using System.ComponentModel;
 
-namespace Maui;
+namespace Maui.FreakyControls;
 
 public class FreakyView : ContentView
 {

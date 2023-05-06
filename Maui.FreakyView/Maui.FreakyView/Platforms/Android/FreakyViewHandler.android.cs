@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Maui;
+namespace Maui.FreakyControls;
 
 public partial class FreakyViewHandler
 {
