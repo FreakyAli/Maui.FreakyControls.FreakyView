@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:freakycontrols="clr-namespace:Maui.FreakyControls;assembly=FreakyView"
              x:Class="Samples.MainPage">
-
     <ScrollView>
+
+        <freakycontrols:FreakyView BackgroundColor="Yellow">
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
@@ -35,7 +37,8 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-        </VerticalStackLayout>
+            </VerticalStackLayout>
+        </freakycontrols:FreakyView>
     </ScrollView>
 
 </ContentPage>
