@@ -12,10 +12,14 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<RootNamespace>Maui.FreakyControls</RootNamespace>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	  <WarningLevel>4</WarningLevel>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Remove="Platforms\Windows\" />
@@ -23,6 +27,7 @@
 	  <None Remove="Platforms\iOS\" />
 	  <None Remove="Platforms\Android\" />
 	  <None Remove="Shared\" />
+	  <None Remove="Shared\FreakyView\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Platforms\Windows\" />
@@ -30,5 +35,6 @@
 	  <Folder Include="Platforms\iOS\" />
 	  <Folder Include="Platforms\Android\" />
 	  <Folder Include="Shared\" />
+	  <Folder Include="Shared\FreakyView\" />
 	</ItemGroup>
 </Project>

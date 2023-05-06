@@ -5,7 +5,7 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreakyView", "FreakyView\FreakyView.csproj", "{605B3406-3C50-49B6-9EFC-75F775C0F1D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{70F0DCD0-DC5D-4ADE-9E51-E84E8BB03D31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{C319AFF0-F01E-48CB-9B32-7C1D9983DC7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{605B3406-3C50-49B6-9EFC-75F775C0F1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605B3406-3C50-49B6-9EFC-75F775C0F1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605B3406-3C50-49B6-9EFC-75F775C0F1D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70F0DCD0-DC5D-4ADE-9E51-E84E8BB03D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70F0DCD0-DC5D-4ADE-9E51-E84E8BB03D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70F0DCD0-DC5D-4ADE-9E51-E84E8BB03D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70F0DCD0-DC5D-4ADE-9E51-E84E8BB03D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C319AFF0-F01E-48CB-9B32-7C1D9983DC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C319AFF0-F01E-48CB-9B32-7C1D9983DC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C319AFF0-F01E-48CB-9B32-7C1D9983DC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C319AFF0-F01E-48CB-9B32-7C1D9983DC7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
