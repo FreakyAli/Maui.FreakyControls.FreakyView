@@ -219,7 +219,7 @@ internal class BlurView : View
     public BlurView(Context context, string formsId)
         : base(context)
     {
-        mBlurImpl = GetBlurImpl(); 
+        mBlurImpl = GetBlurImpl();
         mPaint = new Paint();
 
         _formsId = formsId;
@@ -389,8 +389,8 @@ internal class BlurView : View
                     {
                         mDecorView.PostInvalidate();
                     }
-                },
-                AndroidMaterialFrameRenderer.BlurProcessingDelayMilliseconds);
+                },1000);
+                //AndroidMaterialFrameRenderer.BlurProcessingDelayMilliseconds);
         }
         else
         {
@@ -439,8 +439,8 @@ internal class BlurView : View
                 }
 
                 SubscribeToPreDraw(mDecorView);
-            },
-            AndroidMaterialFrameRenderer.BlurAutoUpdateDelayMilliseconds);
+            }, 1000);
+        // AndroidMaterialFrameRenderer.BlurAutoUpdateDelayMilliseconds);
     }
 
     private void DisableAutoUpdate()
@@ -704,10 +704,10 @@ internal class BlurView : View
         {
 
             // Quit here, don't draw views above me
-            if (AndroidMaterialFrameRenderer.ThrowStopExceptionOnDraw)
-            {
-                throw new StopException();
-            }
+            //if (AndroidMaterialFrameRenderer.ThrowStopExceptionOnDraw)
+            //{
+            //    throw new StopException();
+            //}
 
             return;
         }
