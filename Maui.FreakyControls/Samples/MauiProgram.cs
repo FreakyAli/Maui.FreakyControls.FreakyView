@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Maui.FreakyControls.Extensions;
+using Microsoft.Extensions.Logging;
 
 namespace Samples;
 
@@ -14,11 +15,11 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+		builder.InitFreakyView();
 
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
-
 		return builder.Build();
 	}
 }
